@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "830390694194",
+    "project_id": "e09-listadelacompra",
+    "storage_bucket": "e09-listadelacompra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830390694194:android:27e981b8d0e230bd4ae72b",
+        "android_client_info": {
+          "package_name": "hugo.monton.blanco.e09_listadelacompra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830390694194-vb02lnf85otn2rdf6dbg5afqguasfm1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQxeJeJK3rRSTiRRwZrJlq7M6ohzN3Kdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830390694194-vb02lnf85otn2rdf6dbg5afqguasfm1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
