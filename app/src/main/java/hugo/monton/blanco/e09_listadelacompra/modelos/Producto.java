@@ -1,10 +1,29 @@
 package hugo.monton.blanco.e09_listadelacompra.modelos;
 
+import java.text.NumberFormat;
+
 public class Producto {
     // ATRIBUTOS
     private String nombre;
     private int cantidad;
     private float precio;
+
+    private static final NumberFormat nf; // Variable de clase, que solo se instancia una vez(static), en cierto modo, y como no va a cambiar, la hacemos final.
+    private static final NumberFormat nfNumeros;
+
+    // Este constructor es un metod que se utiliza cuando quiero inicializar variables estáticas de clase. Inicializador de variables estáticas para quee cuando Java compile la aplicación, sin necesidad de que lo llame, se genera solo.
+    static {
+        nf = NumberFormat.getCurrencyInstance();
+        nfNumeros = NumberFormat.getNumberInstance();
+    }
+    // Función que utilizaremos para cuando queramos el valor con formato moneda.
+    public String getPrecioMoneda() {
+        return nf.format(this.precio);
+    }
+
+    public String getCantidadTexto() {
+        return nfNumeros.format(this.cantidad);
+    }
 
     // CONSTRUCTORES
     public Producto() {

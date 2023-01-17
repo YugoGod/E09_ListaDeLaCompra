@@ -7,4 +7,9 @@
         android:icon="@drawable/common_full_open_on_phone"
         android:title="Logout"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/btnDatosPersonales"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="DatosPersonales"
+        app:showAsAction="always" />
 </menu>
